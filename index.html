@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naturall</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="paw-outline.svg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="Color Book Animals Vector.svg" alt="logo"
+          height="" width="">
+        Naturall</a>
+
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-white">
+          <button type="button" class="btn active nav-link" data-bs-toggle="button"> <a class="" aria-current="page"
+              href="#">Home</a></button>
+          <div class=" nav-link btn-group" role="group">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Explore
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#services">Our Services</a></li>
+              <li><a class="dropdown-item" href="#contactus">Contact Us</a></li>
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Animal Registry" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="navbar-text">
+        <button type="button" class="btn btn-outline-dark me-2 user" data-bs-toggle="modal" data-bs-target="#register">
+          Sign Up
+        </button>
+      </div>
+
+      <form class="needs-validation" novalidate>
+        <div class="modal fade mt-5" id="register">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Sign Up</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <div class="modal-body">
+                <div class="div">
+                  <div class="input-group mb-3 required">
+                    <span class="input-group-text" id="basic-addon1"><img src="person-lines-fill.svg"
+                        alt=""></span>
+                    <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name"
+                      aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="div">
+                  <div class="input-group mb-3 required">
+                    <span class="input-group-text" id="basic-addon1"><img src="at.svg" alt=""></span>
+                    <input type="text" class="form-control me-2 required" placeholder="Email" aria-label="Email"
+                      aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><img src="bug.svg"
+                        alt="username"></span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                      aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="div">
+                  <div class="input-group mb-3">
+                    <label class="input-group-text required  " for="inputGroupSelect01"><img
+                        src="people.svg" alt=""></label>
+                    <select class="form-select me-2 " id="inputGroupSelect01">
+                      <option selected>Account type</option>
+                      <option value="1">Student</option>
+                      <option value="2">Educator</option>
+                      <option value="3">Partner</option>
+                      <option value="4">Institution</option>
+                    </select>
+
+                    <span class="input-group-text required" id="basic-addon1"><img src="puzzle-fill.svg"
+                        alt=""></span>
+                    <input type="text" class="form-control" placeholder="Gender" aria-label="Gender"
+                      aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="div">
+                  <div class="input-group mb-3 required">
+                    <span class="input-group-text" id="basic-addon1"><img src="hash.svg" alt=""></span>
+                    <input type="text" class="form-control" placeholder="Password" aria-label="Password"
+                      aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="div">
+                  <div class="input-group mb-3 required">
+                    <span class="input-group-text" id="basic-addon1"><img src="hash.svg" alt=""></span>
+                    <input type="text" class="form-control" placeholder="Confirm Password" aria-label="Password"
+                      aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button class="btn btn-warning" type="submit" data-bs-dismiss="modal">
+                  Register
+                </button>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <!-- Button trigger modal -->
+      <div class="navbar-text">
+        <button type="button" class="btn btn-outline-dark user" data-bs-toggle="modal" data-bs-target="#login">
+          Login
+        </button>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-12 mb 3">
+                  <label for="validationCustomUsername" class="form-label">Username/Email</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                      aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+
+                    <label class=" required form-label " for="inputGroupSelect01"><img src="people.svg"
+                        alt=""></label>
+                    <div class="label">
+                      <select class="input-group-text form-select me-2 " id="inputGroupSelect01">
+                        <option selected>Account type</option>
+                        <option value="1">Student</option>
+                        <option value="2">Educator</option>
+                        <option value="3">Partner</option>
+                        <option value="4">Institution</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="validationCustom03" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid Password.
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </nav>
+
+  <!-- About US slide show -->
+  <section>
+
+    <h1 class="h1 title container container-fluid">Naturall</h1>
+    <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+          aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+          aria-label="Slide 8"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="eagle.jpg" class="d-block w-100" alt="Sky King" height="700px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>We're all about animals</h5>
+            <p class="">From Terrors of the deep blue sea to the Kings of the Sky</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="dogs.jpg" class="d-block w-100" alt="Domestic" height="700px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>We were founded in 1985</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, inventore quis delectus enim earum
+              aliquam.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="IMG_6168.JPG" class="d-block w-100" alt="plant" height="700px">
+          <div class="carousel-caption d-none d-md-block contrast">
+            <h5>We're about everything nature</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veniam omnis, adipisci ab architecto
+              hic delectus natus illo sed perspiciatis?</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="turtle.jpg" class="d-block w-100" alt="SeaLife" height="700px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Endangered Priority</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam sunt harum. Id, mollitia est?</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="class.jpg" class="d-block w-100" alt="Predators" height="700px">
+          <div class="carousel-caption d-none d-md-block contrast">
+            <h5>School Curriclum Resource</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iusto temporibus iste a quaerat vel
+              alias doloribus modi tempore ad.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="bug.jpg" class="d-block w-100" alt="Critters" height="700px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Friend to all walks of life</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime culpa corporis ipsam soluta aperiam quod.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="crab.jpg" class="d-block w-100" alt="Sealife" height="700px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sea Life Exploration</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquid, at ipsum pariatur itaque est
+              exercitationem voluptatibus corrupti deserunt sapiente.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="Snake.jpg" class="d-block w-100" alt="Toxic" height="700px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Leading Organisation in New Specie Discoveries</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorum saepe explicabo maxime enim non.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section class="container-fluid mt-2pd-3 mb-4">
+    <h2 class="h2 title" id="services" style="font-size: 40px !important;">What Do We Offer?</h2>
+
+    <div class="card-group">
+
+      <div class="card me-2  w-50" style="width: 18rem;">
+        <img src="Panda.jpg" class="card-img-top" alt="..." class="cardimg" height="650px">
+        <div class="card-body">
+          <h5 class="card-title">Educational Resources</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at obcaecati corporis. Molestias numquam suscipit dignissimos repellat blanditiis repellendus eaque quisquam quis aliquam autem? Adipisci itaque perferendis aspernatur dolor, natus tempora cum consectetur molestias iusto! Illo libero nobis, hic cumque amet vero corrupti, modi fugiat saepe est doloribus! Iste, vel?</p>
+          <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#register">Educational Section</a>
+        </div>
+      </div>
+
+      <div class="card me-2  w-50" style="width: 18rem;">
+        <img src="leopard.jpg" class="card-img-top" alt="..." height="650px" class="cardimg">
+        <div class="card-body">
+          <h5 class="card-title">Wildlife Conservation and Emergency Services</h5>
+          <p class="card-text">Become a Partner Today! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+            atque quidem, recusandae quos quaerat quae quam accusantium! Itaque facilis excepturi, at aliquid eligendi
+            explicabo ipsum veritatis officia non harum error quibusdam deserunt maxime repudiandae provident corporis.
+            Odit saepe blanditiis laborum.</p>
+          <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#register">Become a Partner</a>
+        </div>
+      </div>
+
+      <div class="card w-50" style="width: 18rem;">
+        <img src="man and daughter.jpg" class="card-img-top" alt="..." class="cardimg" height="650px">
+        <div class="card-body">
+          <h5 class="card-title">Recreational Parks and Zoo Partnerships Worldwide</h5>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, nemo excepturi eveniet officia, ab libero itaque hic nihil perspiciatis quisquam placeat iste modi nulla ipsa, tempore commodi tenetur esse accusamus facilis voluptatem impedit consequatur. Ipsa aut aliquam quaerat eius accusamus minima, odio voluptas molestias quidem temporibus repellat neque obcaecati consequatur!</p>
+          <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#login">Plan A Trip</a>
+        </div>
+      </div>
+    </div>
+
+    <a class="btn btn-warning mt-5" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      Subscribe to receive Updates!!
+    </a>
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Mailing</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          You can choose what type of content you wish to receive from us
+        </div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Choose here
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Community Service Opportunity</a></li>
+            <li><a class="dropdown-item" href="#">Biology Discoveries</a></li>
+            <li><a class="dropdown-item" href="#">Fun Facts!</a></li>
+          </ul>
+        </div>
+
+        <div class="email">
+          <label for="validationCustomUsername" class="form-label">Username/Email</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                      aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+
+                  <button type="button" class="btn btn-warning mt-4" data-bs-dismiss="offcanvas"> Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="contactus" id="contactus">
+
+    <h1 class="h1 text-white">Contact Us</h1>
+    <div class="socialmedia d-flex justify-content-between mt-3 ">
+
+      <div class="row container pd-5">
+        <div class="col-sm-1 me-3">
+          <a href=""><img src="facebook.svg" alt="facebook"></a>
+        </div>
+        <div class="col-sm-1 me-3">
+          <a href=""><img src="twitter.svg" alt="twitter"></a>
+        </div>
+        <div class="col-sm-1 me-3">
+          <a href=""><img src="whatsapp.svg" alt="whatsapp"></a>
+        </div>
+        <div class="col-sm-1 me-3">
+          <a href=""><img src="youtube.svg" alt="YT"></a>
+        </div>
+        <div class="col-sm-1 me-3">
+          <a href=""><img src="instagram.svg" alt="instagram"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-white">
+      <img src="c-circle.svg" alt=""><span style="font-size: larger !important;">Naturall Widlife
+        Conservation Services LTD.</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in aperiam praesentium sint sapiente,
+        totam dignissimos optio quia rem similique! Illum, voluptate culpa. Quis ex sint est ad animi eos labore, nihil
+        culpa perferendis unde deleniti ut expedita odio quae.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

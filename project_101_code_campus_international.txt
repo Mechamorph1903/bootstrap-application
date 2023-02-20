@@ -1,0 +1,35 @@
+-----------------------------------------------------------------------------------------
+ PROJECT TO BE COMPLETED THIS WEEKEND  --- This Project is due by Monday, 20th, Feb, 2023
+-----------------------------------------------------------------------------------------
+Product Description:
+ You are required to create an SPA(Single Page Application) with bootstrap
+ The application should implement a login and a signup UIs with bootstrap modals.
+  Further requirements for the application are such that:
+a). Signup UI should have the following fields: 
+    name, username, email, password, confirm password, userType, Gender
+    and each with a floating label ensuring all input fields well validated against an empty value
+
+b) Login UI should have the following fields: username/email, password, and usertype
+     with each input fields well validated against an empty value
+
+c) The application should have the following sections covered: 
+   1. About Us 
+   2. Services
+   3. Newsletter
+   4. CTA -- which also should have either a popover or off-canvass
+   5. Navigation Bar
+   6. Footer
+but in no special order
+
+NB: 1.You are required to beautify your page with beautiful eye-catching images and icons anywhere possible
+    2.You MUST create a low-fidelity MOCK-UP using any software of your choice
+    3. You MUST create a Github Repo for your project and MUST add a Read.me file showing both the MOCK-UP 
+       and the snapshots of the working application.
+
+
+
+
+
+
+
+

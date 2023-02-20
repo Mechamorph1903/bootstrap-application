@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(80, 134, 17) !important;
+   
+}
+.navbar {
+    background-color: #cac2c2 !important;
+    color: white !important;
+}
+.navbar-brand {
+    padding: none !important;
+    margin-right: 90px !important;
+    font-weight: 600;
+    font-family: serif;
+    font-style: italic;
+}
+
+label {
+    color: black !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.active {
+    color: white !important;
+}
+
+.carousel-caption {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.411);
+    font-weight: 600 !important;
+}
+.title {
+    width: 500px;
+    color: rgba(241, 234, 234, 0.856) !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+    margin: 0px auto;
+    background-color: #ce9c07ad;
+    border-radius: 10px;
+    border-left: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255) ;
+    font-size: 60px !important;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 700;
+    font-family:'EB Garamond', serif;
+    transition: width 1s;
+    transition-timing-function: ease;
+
+}
+
+.title:hover{
+    width: 600px;
+
+}
+
+.modal-header {
+    background-color: #F9971C;
+}
+
+.required::after {
+    content: "*";
+    color: red;
+}
+
+.user {
+    background-color: #5f3b0f!important;
+    color: white !important;
+}
+
+.cardimg {
+    height: 100px !important;
+}
+
+.socialmedia {
+    background-color: #5f3b0f;
+    height: 60px;
+}
+
+a > img {
+    height: 40px !important;
+    color: white !important;
+}
+
+.copyright {
+    background-color: #361f02;
+    height: 90px;
+}
+
+.contactus {
+    background-color: black;
+}
